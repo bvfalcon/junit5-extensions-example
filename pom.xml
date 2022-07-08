@@ -39,7 +39,6 @@
 			<groupId>name.bychkov.junit5</groupId>
 			<artifactId>junit5-extensions</artifactId>
 			<version>${junit5-extensions.version}</version>
-			<classifier>test-jar-with-dependencies</classifier>
 			<type>test-jar</type>
 			<scope>test</scope>
 		</dependency>
