@@ -31,12 +31,12 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>name.bychkov.junit5</groupId>
+			<groupId>name.bychkov</groupId>
 			<artifactId>junit5-extensions</artifactId>
 			<version>${junit5-extensions.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>name.bychkov.junit5</groupId>
+			<groupId>name.bychkov</groupId>
 			<artifactId>junit5-extensions</artifactId>
 			<version>${junit5-extensions.version}</version>
 			<type>test-jar</type>
@@ -52,7 +52,7 @@
 				<version>3.0.0-M7</version>
 				<configuration>
 					<dependenciesToScan>
-						<dependency>name.bychkov.junit5:junit5-extensions:test-jar</dependency>
+						<dependency>name.bychkov:junit5-extensions:test-jar</dependency>
 					</dependenciesToScan>
 				</configuration>
 			</plugin>
