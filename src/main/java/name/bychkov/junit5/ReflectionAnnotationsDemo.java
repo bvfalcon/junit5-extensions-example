@@ -6,7 +6,7 @@ import java.util.function.Function;
 @CheckField(targetClass = ParentSimpleDTO.class, value = "CONSTANT_1")
 @CheckConstructor(targetClass = ChildSimpleDTO.class)
 @CheckMethod(targetClass = ChildSimpleDTO.class, value = "finalMethod4", returnType = void.class)
-public class App
+public class ReflectionAnnotationsDemo
 {
 	@CheckField(targetClass = ParentSimpleDTO.class, value = "CONSTANT_1")
 	@CheckField(targetClass = ParentSimpleDTO.class, value = "CONSTANT_2")
@@ -164,7 +164,7 @@ public class App
 	@CheckMethod(targetClass = ChildSimpleDTO.class, value = "finalMethod2", returnType = void.class)
 	@CheckMethod(targetClass = ChildSimpleDTO.class, value = "finalMethod3", returnType = Locale.class)
 	@CheckMethod(targetClass = ChildSimpleDTO.class, value = "finalMethod4", returnType = void.class)
-	public App()
+	public ReflectionAnnotationsDemo()
 	{
 	}
 	
