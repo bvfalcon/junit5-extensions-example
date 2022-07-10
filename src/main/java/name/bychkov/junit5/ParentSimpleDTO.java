@@ -1,6 +1,7 @@
 package name.bychkov.junit5;
 
 import java.io.Serializable;
+import java.util.Locale;
 import java.util.function.Function;
 
 public class ParentSimpleDTO implements Serializable
@@ -65,8 +66,9 @@ public class ParentSimpleDTO implements Serializable
 	{
 	}
 	
-	final void finalMethod3()
+	final Locale finalMethod3()
 	{
+		return Locale.getDefault();
 	}
 	
 	public final void finalMethod4()
@@ -77,8 +79,9 @@ public class ParentSimpleDTO implements Serializable
 	{
 	}
 	
-	protected void method2()
+	protected ParentSimpleDTO method2()
 	{
+		return this;
 	}
 	
 	void method3()
@@ -101,8 +104,9 @@ public class ParentSimpleDTO implements Serializable
 	{
 	}
 	
-	public void method4WithParams(Function<String, String> param1, String param2, byte param3)
+	public String method4WithParams(Function<String, String> param1, String param2, byte param3)
 	{
+		return "";
 	}
 	
 	public ParentSimpleDTO()
