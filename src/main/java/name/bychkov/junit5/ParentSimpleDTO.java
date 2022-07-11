@@ -11,7 +11,7 @@ public class ParentSimpleDTO implements Serializable
 	static final String CONSTANT_3 = "test constant 3";
 	public final String CONSTANT_4 = "test constant 4";
 	
-	private static String CONSTANT_5 = "test constant 5";
+	private static Long CONSTANT_5 = 76L;
 	protected static String CONSTANT_6 = "test constant 6";
 	static String CONSTANT_7 = "test constant 7";
 	public String CONSTANT_8 = "test constant 8";
@@ -30,8 +30,9 @@ public class ParentSimpleDTO implements Serializable
 	{
 	}
 	
-	protected static final void staticMethod2()
+	protected static final String staticMethod2()
 	{
+		return "";
 	}
 	
 	static final void staticMethod3()
